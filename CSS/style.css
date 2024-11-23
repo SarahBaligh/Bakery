@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans, sans-serif";
+}
+
+.home {
+  height: 100vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+nav {
+  padding: 15 140;
+}
+
+.nav-logo {
+  display: inline-block;
+  width: 49%;
+}
+
+.home nav .nav-list {
+  display: inline-block;
+  text-align: right;
+  width: 49%;
+}
+
+.home nav .nav-list li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 20;
+}
+
+.home nav .nav-list li span {
+  color: white !important;
+  font-size: 20px;
+}
+
+.home nav .nav-list a:hover {
+  color: burlywood;
+}
+
+.home nav .nav-list li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.home nav .nav-logo img {
+  width: 30%;
+}
+
+.home .home-content {
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  padding-left: 370px;
+  display: inline-block;
+  width: 50%;
+}
+
+h1 {
+  font-size: 76px !important;
+  font-weight: 400;
+  margin: 15px;
+}
+
+.home .home-content a {
+  border-radius: 5px;
+  padding: 15px;
+  border: 2px solid transparent;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 20px 10px;
+  transition: all 0.2s;
+}
+
+.home .home-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn1 {
+  background-color: rgb(129, 98, 61);
+}
+
+.btn2 {
+  background-color: transparent;
+  border-color: white !important;
+}
+
+.home .home-content p,
+.home .home-content span {
+  font-size: 25px !important ;
+  margin-bottom: 40px !important;
+  color: white !important;
+}
+
+.who-we-are .who-image,
+.who-we-are .who-text {
+  display: inline-block;
+}
+
+.who-we-are {
+  padding: 90 137 60;
+}
+
+.who-image {
+  width: 45%;
+  margin: 0 20;
+}
+
+.who-we-are .who-image img {
+  width: 100%;
+}
+
+.who-text {
+  width: 45%;
+  vertical-align: top;
+  margin: 0 40;
+}
+
+h2,
+h3 {
+  font-size: 28px;
+  font-weight: 100;
+  color: #303030;
+}
+
+p,
+tr,
+span {
+  line-height: 1.86em;
+  font-size: 17px;
+  color: #686868;
+  margin: 20 0;
+}
+
+tr img {
+  width: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  vertical-align: text-top;
+  margin: 8px 8px 8px 0px;
+}
+
+.Our-location {
+  background-color: #f8f8f8;
+  padding: 70 137 50;
+}
+
+.Our-location-text {
+  display: inline-block;
+  width: 48%;
+  margin: 20px 0px;
+  vertical-align: top;
+  line-height: 1.86em;
+  padding-top: 100px;
+}
+
+.our-image {
+  width: 45%;
+  display: inline-block;
+  margin: 20 40;
+  padding: 30 0;
+}
+
+.our-image img {
+  width: 100%;
+}
+
+.our-baking {
+  text-align: center;
+  padding: 70px 137px 50px;
+  display: inline-block;
+}
+
+.our-baking p {
+  padding: 0px 25px;
+}
+
+.baking {
+  width: 33.3%;
+  float: left;
+  margin: 30 0;
+  padding-top: 30;
+}
+
+.baking img {
+  width: 90%;
+}
+
+.contact {
+  padding: 85 139;
+  background-color: #f8f8f8;
+}
+
+.contact-image {
+  width: 35%;
+  float: right;
+  margin: 0px 45px;
+  padding: 40px;
+}
+
+.contact-image img {
+  width: 100%;
+}
+
+.contact tr img {
+  background-color: #8e7754;
+}
+
+.contact-text {
+  width: 45%;
+  line-height: 1.86em;
+}
+
+.footer-main {
+  background-color: #403d38;
+  padding-top: 20;
+}
+
+.footer-main p,
+.footer-main span {
+  color: #969696;
+}
+
+.container {
+  margin: 0 139px;
+}
+
+h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.styling {
+  float: left;
+  width: 25%;
+  font-size: small;
+}
+
+.footer-bakery {
+  background-color: #353330;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-bakery figure {
+  width: 20%;
+  margin: auto;
+}
+
+.footer-bakery figure img {
+  width: 100%;
+}
+
+.footer-bakery .footer-icons img {
+  background-color: #484540;
+  width: 40px !important;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.clear-fix {
+  clear: both;
+}
